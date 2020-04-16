@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="ceb6b4a2-4379-4413-b3c4-61850e079a5e" activeEnvironment="Default" name="lab1" resourceRoot="" soapui-version="5.5.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="ea6ab031-809e-47e8-ae3b-0d08345ef3d7" wsaVersion="NONE" name="ApiPortSoap11" type="wsdl" bindingName="{http://amw.gdynia.pl/sao/lab1}ApiPortSoap11" soapVersion="1_1" anonymous="optional" definition="file:/H:/Desktop/api.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:\H:\Desktop\api.wsdl"><con:part><con:url>file:\H:\Desktop\api.wsdl</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://amw.gdynia.pl/sao/lab1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:sch="http://amw.gdynia.pl/sao/lab1" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://amw.gdynia.pl/sao/lab1">
+<con:soapui-project id="ceb6b4a2-4379-4413-b3c4-61850e079a5e" activeEnvironment="Default" name="lab1" resourceRoot="" soapui-version="5.5.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="ea6ab031-809e-47e8-ae3b-0d08345ef3d7" wsaVersion="NONE" name="ApiPortSoap11" type="wsdl" bindingName="{http://amw.gdynia.pl/sao/lab1}ApiPortSoap11" soapVersion="1_1" anonymous="optional" definition="file:/H:/Desktop/api.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:\H:\Desktop\api.wsdl"><con:part><con:url>file:\H:\Desktop\api.wsdl</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://amw.gdynia.pl/sao/lab1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:sch="http://amw.gdynia.pl/sao/lab1" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://amw.gdynia.pl/sao/lab1">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://amw.gdynia.pl/sao/lab1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:element name="registerCallRequest">
@@ -106,7 +106,7 @@
       <lab1:registerCallResponse>
          <lab1:exercise>
             <lab1:name>Justyna</lab1:name>
-            <lab1:note>Justyna</lab1:note>
+            <lab1:note>hello :3</lab1:note>
          </lab1:exercise>
       </lab1:registerCallResponse>
    </soapenv:Body>
@@ -115,7 +115,7 @@
    <soapenv:Body>
       <lab1:resultsResponse>
          <!--1 or more repetitions:-->
-         <lab1:entry>?</lab1:entry>
+         <lab1:entry>ayyyy</lab1:entry>
       </lab1:resultsResponse>
    </soapenv:Body>
 </soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://amw.gdynia.pl/sao/lab1/ApiPort/resultsResponse"/></con:response><con:dispatchConfig/></con:mockOperation></con:mockService><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
